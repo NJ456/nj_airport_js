@@ -1,4 +1,3 @@
-
 class Plane {
   constructor(name){
     this.name = name
@@ -11,7 +10,7 @@ class Plane {
   land(plane) {
     return this.airport
     return this.destination
-    return this.location = 'grounded'
+    return this.location = 'Grounded'
     this.hangar.push()
   }
 }
