@@ -30,13 +30,13 @@ describe('Airport', function(){
     let plane = "934"
     airport.land(plane)
     var plane2 = "789"
-    airport.land(plane)
+    airport.land(plane2)
     const plane3 = "3455"
-    airport.land(plane)
+    airport.land(plane3)
     var plane4 = "234"
-    airport.land(plane)
+    airport.land(plane4)
     var plane5 = "3454"
-    airport.land(plane)
+    airport.land(plane5)
 
     console.log(airport.hangar)
     MyCustomError = new Error('Airport full, DO NOT land!')
